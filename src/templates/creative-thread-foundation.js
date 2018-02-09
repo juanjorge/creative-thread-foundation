@@ -94,18 +94,6 @@ class CreativeThreadFoundationTemplate extends Component {
       const members = this.get_full_article(node.articles, widgets[1]["contents"][3].uid)
       const message_chairman = this.get_full_article(node.articles, widgets[1]["contents"][4].uid)
       const activities = this.get_full_article(node.articles, widgets[1]["contents"][5].uid)
-
-
-      console.log({
-        spotlight: spotlight
-      });
-      
-      const articles = node.articles.map(art => {
-         return JSON.parse(art)
-      })
-
-      const openning = articles[0] //openning
-      console.log(openning)
       
       return (
          <div>

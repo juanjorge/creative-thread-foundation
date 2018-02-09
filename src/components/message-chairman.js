@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import striptags from 'striptags'
 
 class ActivitiesComponent extends Component {
    
@@ -16,7 +17,7 @@ class ActivitiesComponent extends Component {
                 <h2 className="title" data-aos="fade-up">{message_chairman.title}</h2>            
                 {
                     message_chairman.body.map(function (txt, index){
-                        return <p className="description" data-aos="fade-down" dangerouslySetInnerHTML={{ __html: txt.value }}></p>
+                        return <p className="description" data-aos="fade-down" dangerouslySetInnerHTML={{ __html: striptags(txt.value) }}></p>
                     })
                 }
                 <div className="author aos-init aos-animate" data-aos="flip-left">

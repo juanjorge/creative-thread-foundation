@@ -1,5 +1,5 @@
 var plugins = [{
-      plugin: require('/Users/juanjorge/Developer/static.univision.com/creative-thread-foundation/gatsby-browser.js'),
+      plugin: require('/Users/juanjorge/Developer/creative-thread-foundation/gatsby-browser.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks
