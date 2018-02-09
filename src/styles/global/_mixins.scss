@@ -1,0 +1,14 @@
+@mixin prefix($property, $value, $prefixes: ()){
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+
+
+// RGB to RGBA
+//example -> background-color: hex-to-rgba($color-3, 0.68);
+@function hex-to-rgba ($color: #FFF, $opacity: 0.5) {
+  @return rgba(red($color), green($color), blue($color), $opacity);
+}
