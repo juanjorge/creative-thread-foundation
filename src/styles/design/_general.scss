@@ -453,6 +453,40 @@ header{
 		box-shadow: 1px 12px 26px 0px rgba(0,0,0,0.3);
 	}
 }
+.info-label
+{
+	font-weight: 600;
+	font-size: 17px;
+}
+.button
+{
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background: #DF5430;
+	border: 1px solid #DF5430;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Dosis", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	&:hover
+	{
+		background: #666;
+		border: 1px solid #666;
+	}
+	&:active
+	{
+		background: #000;
+		border: 1px solid #000;
+	}
+	&[disabled=disabled]
+	{
+		background: #ccc;
+		border: #ccc;
+	}
+}
 footer{
 	.wrapper{
 		margin: 0 auto;

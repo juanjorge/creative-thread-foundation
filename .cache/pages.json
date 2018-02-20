@@ -1,5 +1,12 @@
 [
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-templates-creative-thread-foundation-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -14,11 +21,11 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-pages-index-old-js",
+        "componentChunkName": "component---src-pages-deploy-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "index-old.json",
-        "path": "/index.old/"
+        "jsonName": "deploy.json",
+        "path": "/deploy/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
